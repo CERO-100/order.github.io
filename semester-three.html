@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semester Three</title>
+
+    <script src="https://kit.fontawesome.com/0595897d0f.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="icons/sem-two-icon.png">
+    <!-- <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/styles.css"> -->
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-white text-black dark:bg-black dark:text-white">
+    <div id="secondary-nav-links" class="fixed top-0 right-0 bg-black dark:bg-white w-56 z-50 h-full invisible translate-x-96 transition-all duration-300" >
+
+        <div id="close-icon" class="mt-2.5 ml-2.5">
+            <img src="./icons/icons8-close-64.png" alt="" class="w-9 h-9 cursor-pointer hidden dark:block" onclick="navBarFun(false);">
+            <img src="./icons/icons8-close-50_white.png" alt="" class="w-9 h-9 cursor-pointer block dark:hidden" onclick="navBarFun(false);">
+        </div>
+
+        <div id="nav-links-two" class="text-2xl text-white dark:text-black text-center uppercase my-5">
+            <a href="./productivity.html" class="px-6 py-1 w-full inline-block">
+                Home
+            </a>
+            <a href="./semester-one.html" class="px-6 py-1 w-full inline-block">
+                Sem 1
+            </a>
+            <a href="./semester-two.html" class="px-6 py-1 w-full bg-white text-black dark:bg-black dark:text-white rounded-md">
+                Sem 2
+            </a>
+            <a href="./semester-three.html" class="px-6 py-1 w-full inline-block">
+                Sem 3
+            </a>
+            <a href="./semester-four.html" class="px-6 py-1 w-full inline-block">
+                Sem 4
+            </a>
+            
+        </div>
+    </div>
+
+    <header>
+        <nav class="h-14 flex justify-between items-center px-3 md:px-10 xl:px-20 fixed top-0 w-full z-40 bg-white dark:bg-black">
+            <div id="logo" class="text-3xl mt-1.5">
+                Order
+            </div>
+
+            <div id="nav-links" class="text-lg hidden xl:block uppercase">
+                <a href="./productivity.html" class="px-2.5">Home</a>
+                <a href="./semester-one.html" class="px-2.5">Sem 1</a>
+                <a href="./semester-two.html" class="px-2.5">Sem 2</a>
+                <a href="./semester-three.html" class="px-4 py-1 bg-black text-white dark:bg-white dark:text-black rounded-md">Sem 3</a>
+                
+                
+            </div>
+
+            <div id="ham-menu" class="block xl:hidden cursor-pointer" onclick="navBarFun(true);">
+                <div class="bar w-8 md:w-9 h-1 bg-black dark:bg-white my-1"></div>
+                <div class="bar w-8 md:w-9 h-1 bg-black dark:bg-white my-1"></div>
+                <div class="bar w-8 md:w-9 h-1 bg-black dark:bg-white my-1"></div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="theme-changing-btn-area" class="flex justify-end mt-14">
+        <div class="toggle-switch">
+            <label class="switch-label">
+                <input type="checkbox" class="checkbox">
+              <span class="slider"></span>
+            </label>
+          </div>
+    </div>
+
+    <section class="lg:px-44 mt-2.5" style="font-family: 'Roboto Mono', monospace;">
+        <div id="section-heading" class="text-center lg:text-4xl text-2xl font-bold">~ Semester Three ~</div>
+
+        <div id="section-content" class="text-center my-6">
+            <div class="text-xl lg:text-3xl font-bold">Subjects</div>
+
+            <div class="underline-box w-12 h-1 mx-auto my-1.5"></div>
+
+            <div id="subject-list-box py-5">
+                <a href="https://mega.nz/folder/ONERBbLR#Bv0JrJSGL668ji2nCrmL0g" class="inline-block xl:w-2/3 w-5/6 mx-auto my-2">
+                    <div class="individual-box border-2 border-black dark:border-white py-3 text-base lg:text-xl bg-white dark:bg-black hover:bg-black dark:hover:bg-white hover:text-white dark:text-white dark:hover:text-black" style="font-family: 'Roboto Mono', monospace;">
+                        Data Science & Machine Learning
+                    </div>
+                </a>
+
+                <a href="https://mega.nz/folder/Hd8mwLTT#IfZNtx5GVmqZcetbCtNSYQ" class="inline-block xl:w-2/3 w-5/6 mx-auto my-2">
+                    <div class="individual-box border-2 border-black dark:border-white py-3 text-base lg:text-xl bg-white dark:bg-black hover:bg-black dark:hover:bg-white hover:text-white dark:text-white dark:hover:text-black" style="font-family: 'Roboto Mono', monospace;">
+                        Design & Analysis of Algorithms
+                    </div>
+                </a>
+
+                <a href="https://mega.nz/folder/uNs13BLB#rsbgTe_S81hfkliAQycSSA" target="_blank"  class="inline-block xl:w-2/3 w-5/6 mx-auto my-2">  
+                    <div class="individual-box border-2 border-black dark:border-white py-3 text-base lg:text-xl bg-white dark:bg-black hover:bg-black dark:hover:bg-white hover:text-white dark:text-white dark:hover:text-black" style="font-family: 'Roboto Mono', monospace;">
+                        CYBER SECURITY & CRYPTOGRAPHY
+                    </div>
+                </a>
+
+                <a href="https://mega.nz/folder/3FNTHKIB#zrMKnigfcW_vAhSk7MW2Nw" target="_blank" class="inline-block xl:w-2/3 w-5/6 mx-auto my-2">  
+                    <div class="individual-box border-2 border-black dark:border-white py-3 text-base lg:text-xl bg-white dark:bg-black hover:bg-black dark:hover:bg-white hover:text-white dark:text-white dark:hover:text-black" style="font-family: 'Roboto Mono', monospace;">
+                        DEEP LEARNING
+                    </div>
+                </a>
+                <a href="https://mega.nz/folder/bNd23LKT#3dXl1EPLwhT_dNxPm1JEFA" target="_blank" class="inline-block xl:w-2/3 w-5/6 mx-auto my-2">  
+                    <div class="individual-box border-2 border-black dark:border-white py-3 text-base lg:text-xl bg-white dark:bg-black hover:bg-black dark:hover:bg-white hover:text-white dark:text-white dark:hover:text-black" style="font-family: 'Roboto Mono', monospace;">
+                        SOCIAL NETWORKS
+                    </div>
+                </a>
+                
+                <a href="https://mega.nz/folder/OAUBRSyA#Ds3gwMAATIfml7v1i68K_g" target="_blank" class="inline-block xl:w-2/3 w-5/6 mx-auto my-2">  
+                    <div class="individual-box border-2 border-black dark:border-white py-3 text-base lg:text-xl bg-white dark:bg-black hover:bg-black dark:hover:bg-white hover:text-white dark:text-white dark:hover:text-black" style="font-family: 'Roboto Mono', monospace;">
+                        CLOUD COMPUTING
+                    </div>
+                </a>
+                <a href="https://mega.nz/folder/jJ9BUKzJ#-tY5u3kUTkGBslUMyJ4mrg" target="_blank" class="inline-block xl:w-2/3 w-5/6 mx-auto my-2">  
+                    <div class="individual-box border-2 border-black dark:border-white py-3 text-base lg:text-xl bg-white dark:bg-black hover:bg-black dark:hover:bg-white hover:text-white dark:text-white dark:hover:text-black" style="font-family: 'Roboto Mono', monospace;">
+                        Questions 
+                    </div>
+                </a>
+
+                
+
+                
+            </div>
+        </div>
+
+        <div id="course-details-section" class="my-14 w-5/6 mx-auto">
+            <div class="details-heading text-lg font-bold"> Subjects </div>
+            <div class="underline-box w-12 h-1 my-1.5"></div>
+            <div class="sub-names text-base md:text-lg">
+                - Data Science & Machine Learning <br>
+                - CYBER SECURITY & CRYPTOGRAPHY<BR>
+                - Design & Analysis of Algorithms
+            </div>
+            <br><br>
+
+            <div class="details-heading text-lg font-bold">Questions</div>
+            <div class="underline-box w-12 h-1 my-1.5"></div>
+            <div class="sub-names text-base md:text-lg">
+                 
+                - Questions  <br>
+            </div>
+            <br><br><br>
+
+            <div class="details-heading text-base md:text-lg">Notes for all the subjects can be found here:</div>
+            <a href="https://mega.nz/folder/CAUQkbwR#CAjdYRLrv5uyB53UBTO3kA" target="_blank"><button class="multipurpose-btn mx-5 uppercase">Click Me</button></a>
+        </div>
+
+    </section>
+
+    <a href="#" class="to-top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <footer class="p-2.5">
+        <div class="copyright-area text-center text-base xl:text-xl"></div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
